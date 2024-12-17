@@ -7,7 +7,6 @@
 .image-tab-container {
   max-width: 1300px;
   margin: auto;
-  font-family: "Poppins", serif;
 }
 .image-box {
   width: 100%;
@@ -31,6 +30,10 @@
   border: 0;
   background-color: transparent;
   cursor: pointer;
+  font-size: 18px;
+  font-family: "Poppins", serif;
+
+  text-transform: capitalize;
 }
 .image-tab-btn .active {
   background-color: #ff6600;
